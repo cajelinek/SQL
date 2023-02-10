@@ -1,0 +1,5 @@
+SELECT CASE
+	WHEN column > 2 THEN ‘Output1’
+	ELSE ‘Output2’
+END
+FROM Table
